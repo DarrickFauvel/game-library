@@ -1,0 +1,4 @@
+/* vendors: a rare site goes without external dependencies. This folder contains styles that are not created by those who develop a particular site. Here, for example, you can save the Font Awesome project files, Bootstrap styles, and the likes. */
+
+@import url(./_bootstrap.css);
+@import url(./_jquery-ui.css);

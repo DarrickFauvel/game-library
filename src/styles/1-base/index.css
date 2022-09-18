@@ -1,0 +1,4 @@
+/* base: in this folder you need to place all “template” code. By “template” code we  mean all the CSS code that you have to write when creating a new project. For example: typographic rules, animations, utilities (that is, classes like margin-right-large, text-center), and so on. */
+
+@import url(./_reset.css);
+@import url(./_typography.css);

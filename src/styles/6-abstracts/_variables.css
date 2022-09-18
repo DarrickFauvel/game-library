@@ -1,0 +1,19 @@
+/* Variables */
+
+:root {
+  --color-corn-flower: hsl(230, 19%, 37%);
+  --color-hot-pink: hsl(331, 90%, 64%);
+  --color-cyan: hsl(175, 84%, 57%);
+  --color-tiffany-blue: hsl(165, 56%, 83%);
+
+  /* Dark theme */
+  --background-color-dark: var(--color-corn-flower);
+  --color-dark: var(--color-tiffany-blue);
+  --link-hover-dark: var(--color-hot-pink);
+
+  /* Light theme */
+  --background-color-light: hsl(0, 0%, 100%);
+  --color-light: hsl(208, 37%, 20%);
+  --link-hover-light: hsl(237, 100%, 73%);
+  --button-background-color-light: hsl(0, 0%, 98%);
+}

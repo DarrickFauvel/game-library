@@ -1,0 +1,5 @@
+/* pages: sometimes a project needs pages that have their own specific style, which is different from the style of the other pages. Style descriptions for such special pages  go into this folder. */
+
+@import url(./_home.css);
+@import url(./_about.css);
+@import url(./_contact.css);

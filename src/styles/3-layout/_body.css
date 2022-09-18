@@ -1,0 +1,10 @@
+/* Body */
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}

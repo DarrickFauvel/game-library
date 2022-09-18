@@ -1,0 +1,20 @@
+/* Default theme */
+
+:root {
+  color-scheme: light dark;
+  color: var(--color-dark);
+  background-color: var(--background-color-dark);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--color-light);
+    background-color: var(--background-color-light);
+  }
+  a:hover {
+    color: var(--link-hover-light);
+  }
+  button {
+    background-color: var(--button-background-color-light);
+  }
+}
