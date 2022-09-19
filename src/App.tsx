@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 
-import "./App.css"
+// import "./App.css"
 import { GameContextProvider } from "./contexts/GameContext"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
