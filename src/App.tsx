@@ -7,11 +7,12 @@ import Header from "./components/Header"
 import Add from "./routes/Add"
 import Home from "./routes/Home"
 import Update from "./routes/Update"
+import NavTop from "./components/NavTop"
 
 const App = () => {
   return (
     <GameContextProvider>
-      <div className="App">
+        <NavTop />
         <Header />
 
         <main className="main">
