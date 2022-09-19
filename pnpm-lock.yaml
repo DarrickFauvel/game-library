@@ -5,6 +5,7 @@ specifiers:
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.1.0
+  cors-anywhere: ^0.4.4
   react: ^18.2.0
   react-dom: ^18.2.0
   react-router-dom: ^6.4.0
@@ -13,6 +14,7 @@ specifiers:
 
 dependencies:
   '@supabase/supabase-js': 2.0.0-rc.10
+  cors-anywhere: 0.4.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.0_biqbaboplfbrettd7655fr4n2y
@@ -499,6 +501,14 @@ packages:
       safe-buffer: 5.1.2
     dev: true
 
+  /cors-anywhere/0.4.4:
+    resolution: {integrity: sha512-8OBFwnzMgR4mNrAeAyOLB2EruS2z7u02of2bOu7i9kKYlZG+niS7CTHLPgEXKWW2NAOJWRry9RRCaL9lJRjNqg==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      http-proxy: 1.11.1
+      proxy-from-env: 0.0.1
+    dev: false
+
   /cross-fetch/3.1.5:
     resolution: {integrity: sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==}
     dependencies:
@@ -789,6 +799,10 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: true
 
+  /eventemitter3/1.2.0:
+    resolution: {integrity: sha512-DOFqA1MF46fmZl2xtzXR3MPCRsXqgoFqdXcrCVYM3JNnfUeHTm/fh/v/iU7gBFpwkuBmoJPAm5GuhdDfSEJMJA==}
+    dev: false
+
   /ext/1.7.0:
     resolution: {integrity: sha512-6hxeJYaL110a9b5TEJSj0gojyHQAmA2ch5Os+ySCiA1QGdS697XWY1pzsrSjqA9LDEEgdB/KypIlR59RcLuHYw==}
     dependencies:
@@ -828,6 +842,14 @@ packages:
     dependencies:
       function-bind: 1.1.1
     dev: true
+
+  /http-proxy/1.11.1:
+    resolution: {integrity: sha512-qz7jZarkVG3G6GMq+4VRJPSN4NkIjL4VMTNhKGd8jc25BumeJjWWvnY3A7OkCGa8W1TTxbaK3dcE0ijFalITVA==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      eventemitter3: 1.2.0
+      requires-port: 0.0.1
+    dev: false
 
   /is-core-module/2.10.0:
     resolution: {integrity: sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==}
@@ -924,6 +946,10 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
+  /proxy-from-env/0.0.1:
+    resolution: {integrity: sha512-B9Hnta3CATuMS0q6kt5hEezOPM+V3dgaRewkFtFoaRQYTVNsHqUvFXmndH06z3QO1ZdDnRELv5vfY6zAj/gG7A==}
+    dev: false
+
   /react-dom/18.2.0_react@18.2.0:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
@@ -966,6 +992,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
+
+  /requires-port/0.0.1:
+    resolution: {integrity: sha512-AzPDCliPoWDSvEVYRQmpzuPhGGEnPrQz9YiOEvn+UdB9ixBpw+4IOZWtwctmpzySLZTy7ynpn47V14H4yaowtA==}
     dev: false
 
   /resolve/1.22.1:
