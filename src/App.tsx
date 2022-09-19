@@ -8,6 +8,7 @@ import Add from "./routes/Add"
 import Home from "./routes/Home"
 import Update from "./routes/Update"
 import NavTop from "./components/NavTop"
+import SearchBGG from "./routes/SearchBGG"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="add" element={<Add />} />
+            <Route path="search-bgg" element={<SearchBGG />} />
             <Route path=":id" element={<Update />} />
           </Routes>
         </main>
