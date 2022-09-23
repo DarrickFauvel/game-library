@@ -1,0 +1,5 @@
+/* Shadow styles */
+
+.border-bottom {
+  border-bottom: var(--border-size-1) solid var(--gray-7);
+}

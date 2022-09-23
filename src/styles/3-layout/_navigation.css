@@ -1,1 +1,11 @@
 /* Navigation */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  gap: 1em;
+}

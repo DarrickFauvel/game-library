@@ -1,0 +1,26 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-block-start: var(--size-8);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-top: var(--border-size-1) solid var(--gray-8);
+  margin-block-end: var(--size-5);
+}
+
+.link {
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  font-weight: var(--font-weight-6);
+}
+
+.year {
+  font-size: var(--font-size-1);
+}

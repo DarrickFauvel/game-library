@@ -1,7 +1,8 @@
 /* components: the name of this folder clearly indicates what will be stored in it. We are talking about the styles of components used to build pages. These are buttons, forms, all kinds of sliders, pop-ups, and so on. */
 
-@import url(./_buttons.css);
+/* @import url(./_buttons.css);
 @import url(./_carousel.css);
-@import url(./_slider.css);
+@import url(./_slider.css); */
 
+@import url(./NavTop.css);
 @import url(./ItemDetail.css);
