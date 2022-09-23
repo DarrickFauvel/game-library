@@ -1,10 +1,11 @@
 /* layout: this folder is used to store the styles of page layout elements. This is the header and footer of the page, the navigation area, various sections of the page, the grid, and so on. */
 
 @import url(./_body.css);
-
+@import url(./_container.css);
 @import url(./_navigation.css);
 @import url(./_grid.css);
 @import url(./_header.css);
+@import url(./_main.css);
 @import url(./_footer.css);
 @import url(./_sidebar.css);
 @import url(./_forms.css);
